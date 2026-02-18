@@ -1,22 +1,25 @@
 ---
 name: User Story
-about: Create a user story for GiftLink project
-title: "[USER STORY]"
+about: Create a user story for the project
+title: "[USER STORY] "
 labels: new
-assignees: ''
+assignees: ""
 ---
 
-## User Story
-
-**As a** user  
-**I want** to perform an action  
-**So that** I can achieve a goal  
+**As a** [type of user]  
+**I need** [some goal]  
+**So that** [some reason]
 
 ---
 
-## Acceptance Criteria
+### Details and Assumptions
 
-- [ ] Feature works correctly
-- [ ] Data is stored in database
-- [ ] API response is correct
-- [ ] UI displays proper output
+- [document what you know]
+
+### Acceptance Criteria
+
+```gherkin
+Given [some context]
+When [certain action is taken]
+Then [expected outcome]
+```
