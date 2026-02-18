@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -10,11 +10,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Install Frontend
+
+      - name: Install FrontEnd
         run: |
-          cd frontend
+          cd FrontEnd
           npm install
+
       - name: Install Backend
         run: |
-          cd backend
+          cd giftlink-backend
           npm install
